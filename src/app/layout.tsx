@@ -12,7 +12,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hackcentrix| GDG On Campus GLAU",
+  title: "Hackcentrix | GDG On Campus GLAU",
   description: "A high-stakes hackathon where tech meets the supernatural.",
   icons: {
     icon: [
