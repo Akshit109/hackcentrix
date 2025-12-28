@@ -6,7 +6,7 @@ import { Vision } from "@/components/vision";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen overflow-x-hidden">
       <nav className="fixed top-0 z-50 w-full border-b border-primary/10 bg-background/80 backdrop-blur-md px-4 sm:px-6 py-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <div className="hidden md:flex gap-4 lg:gap-8 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -32,7 +32,7 @@ export default function Home() {
               Mentors
             </a>
           </div>
-          <div className="md:hidden font-mono text-xs uppercase tracking-widest text-primary">
+          <div className="md:hidden font-mono text-xs uppercase tracking-wide text-primary">
             Hackcentrix
           </div>
           <a

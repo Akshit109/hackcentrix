@@ -50,7 +50,7 @@ export function SystemAlert() {
           initial={{ opacity: 0, y: 50, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, scale: 0.9 }}
-          className="fixed bottom-8 right-8 z-50 w-80 border-2 border-primary bg-background p-4 shadow-[0_0_20px_rgba(255,9,9,0.3)]"
+          className="fixed bottom-4 left-4 right-4 md:left-auto md:right-8 md:bottom-8 z-50 w-auto md:w-80 max-w-md mx-auto md:mx-0 border-2 border-primary bg-background p-4 shadow-[0_0_20px_rgba(255,9,9,0.3)]"
         >
           <div className="flex items-start justify-between">
             <div className="flex items-center gap-2 text-primary">

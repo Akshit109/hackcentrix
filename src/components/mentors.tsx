@@ -7,15 +7,13 @@ const mentors = [
   {
     name: "Vanshika Agrawal",
     role: "Community Manager @ OSCode",
-    image:
-      "https://res.cloudinary.com/df6t1dmcs/image/upload/v1766516080/Anshika_mentor_oikpzi.jpg",
+    image: "/vanshika.jpg",
     desc: "Drives engagement, collaborations, and growth within the open-source ecosystem.",
   },
   {
     name: "Anubhav Singh",
     role: "Cyber Threat Researcher @ Xpectro Solutions",
-    image:
-      "https://res.cloudinary.com/df6t1dmcs/image/upload/v1766555050/Anubhav_singh_mentor_tyh3e0.jpg",
+    image: "/anubhav.jpg",
     desc: "Cyber Threat intelligence researcher.",
   },
 ];
@@ -40,7 +38,7 @@ export function Mentors() {
               whileHover={{ scale: 1.02 }}
               className="group relative flex flex-col lg:flex-row border-2 border-primary/20 bg-background overflow-hidden hover:border-primary transition-all duration-75"
             >
-              <div className="relative h-64 sm:h-72 lg:h-auto w-full lg:w-64 shrink-0 grayscale group-hover:grayscale-0 transition-all duration-300 overflow-hidden">
+              <div className="relative aspect-square w-full lg:w-64 shrink-0 grayscale group-hover:grayscale-0 transition-all duration-300 overflow-hidden">
                 <Image
                   src={mentor.image || "/placeholder.svg"}
                   alt={mentor.name}
