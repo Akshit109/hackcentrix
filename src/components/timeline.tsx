@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-  { date: "5-30 Dec", title: "Registration", desc: "Team Formation" },
+  { date: "5-31 Dec", title: "Registration", desc: "Team Formation" },
   { date: "26 Dec - 1 Jan", title: "PPT Submission", desc: "Project Proposal" },
   { date: "3 Jan", title: "Shortlist", desc: "PPT Round Results" },
   { date: "4-10 Jan", title: "Prototyping", desc: "Build Phase" },
